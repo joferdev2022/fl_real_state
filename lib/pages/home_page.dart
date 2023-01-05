@@ -1,3 +1,4 @@
+import 'package:feed_app/widgets/custom_card.dart';
 import 'package:feed_app/widgets/custom_navigator.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class HomePage extends StatelessWidget {
         actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.home))],
       ),
       body: const Center(
-        child: Text('HomePage'),
+        child: CustomCard(),
       ),
       bottomNavigationBar: const CustomNavigator(),
     );

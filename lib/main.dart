@@ -1,5 +1,6 @@
 import 'package:feed_app/pages/cover.dart';
 import 'package:feed_app/pages/home_page.dart';
+import 'package:feed_app/pages/information_page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'cover': (_) => Cover(),
         'home': (_) => HomePage(),
+        'information': (_) => InformationPage(),
       },
     );
   }
